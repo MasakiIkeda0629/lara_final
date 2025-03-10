@@ -1,0 +1,215 @@
+.container{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: none;
+    padding: none;
+    font-family: sans-serif;
+}
+
+.menu_btn{
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: white;
+}
+
+.nav_bar{
+    text-align: right;
+}
+
+.nav_link{
+    color: white;
+}
+
+.contact_name, .contact_email, .contact_number, .contact_message{
+    background-color: black;
+    border-bottom: solid;
+    border-color: white;
+    border-top-color: black;
+    border-left-color:black;
+    border-right-color: black;
+    color: white;
+}
+
+.header, .section, .footer, .copy_right{
+    text-align: center;
+}
+
+.send_btn{
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: white;
+}
+
+@media screen and (max-width: 767px) { 
+    html{font-size: 10px; margin: 10px;}
+    
+    .title{
+        font-size: 4rem;
+    }
+    
+    .header{
+        font-size: 2.5rem;
+    }
+    
+    
+    .section{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 2rem;
+    }
+
+    .contact_me{
+        font-size: 3.5rem;
+    }
+
+    .name, .email, .phone, .message{
+        font-size: 2.5rem;
+    }
+    
+    .contact_name, .contact_email, .contact_number{
+        width: 350px;
+        height: 50px;
+        font-size: 1.8rem;
+    }
+
+    .contact_message{
+        width: 350px;
+        height: 200px;
+        font-size: 1.8rem;
+    }
+
+    .send_btn{
+        height: 40px;
+        width: 120px;
+        font-size: 2rem;
+    }
+
+    .footer{
+        font-size: 2.5rem;
+    }
+
+
+    .header, .section, .contact_name, .contact_email, .contact_number, .contact_message, .footer, .introduce, .contact_me{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1279px){ 
+    .title{
+        font-size: 3.5rem;
+    }
+
+    .header{
+        font-size: 3rem;
+    }
+
+    .introduce{
+        font-size: 3rem;
+    }
+
+    .section{
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 1.5rem;
+    }
+
+    .contact_me{
+        font-size: 3rem;
+    }
+
+    .contact_name, .contact_email, .contact_number{
+        width: 700px;
+        height: 100px;
+        font-size: 1.5rem;
+    }
+
+    .name, .email, .phone, .message{
+        font-size: 2rem;
+    }
+
+
+    .contact_message{
+        width: 730px;
+        height: 200px;
+        font-size: 2rem;
+    }
+
+    .send_btn{
+        height: 75px;
+        width: 250px;
+        font-size: 2rem;
+    }
+
+    .footer{
+        font-size: 2rem;
+    }
+
+
+    .header, .section, .contact_name, .contact_email, .contact_number, .contact_message, .footer, .introduce, .contact_me{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) { 
+    .title{
+        font-size: 3.5rem;
+    }
+
+    .header{
+        font-size: 3.5rem;
+    }
+
+    .introduce{
+        font-size: 3.5rem;
+    }
+
+    .section{
+        font-size: 2rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contact_me{
+        font-size: 3.5rem;
+    }
+
+    .contact_name, .contact_email, .contact_number{
+        width: 800px;
+        height: 100px;
+        font-size: 2.5rem;
+    }
+
+    .name, .email, .phone, .message{
+        font-size: 2rem;
+    }
+
+    .contact_message{
+        width: 800px;
+        height: 250px;
+        font-size: 2.5rem;
+    }
+
+    .send_btn{
+        height: 100px;
+        width: 300px;
+        font-size: 2rem;
+    }
+
+    .footer{
+        font-size: 2.5rem;
+    }
+
+
+    .header, .section, .contact_name, .contact_email, .contact_number, .contact_message, .footer, .introduce, .contact_me{
+        margin-bottom: 50px;
+    }
+
+}

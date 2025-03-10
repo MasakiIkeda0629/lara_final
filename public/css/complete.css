@@ -1,0 +1,50 @@
+.container{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-color: white;
+}
+
+@media screen and (max-width: 767px) { 
+    .comp{
+        font-size: 3rem;
+    }
+
+    .btn{
+        width: 100px;
+        height:50px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1279px){
+    .comp{
+        font-size: 3.5rem;
+    }
+
+    .btn{
+        width: 125px;
+        height:60px;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .comp{
+        font-size: 3.5rem;
+    }
+
+    .btn{
+        width: 125px;
+        height:60px;
+        font-size: 1.5rem;
+    }
+}

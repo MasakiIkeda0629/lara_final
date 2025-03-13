@@ -16,16 +16,29 @@ This is Masaki Ikeda's profile page. There is also a contact form where you can 
 git clone https://github.com/MasakiIkeda0629/lara_final.git
 
 composer install
-
-php artisan migrate
 ```
 # .env
+
+```zsh
+# ".env.example"ファイルをコピーして".env"ファイルを作成します。
+cp .env.example .env
+
+# laravelのアプリケーションキーを生成します。
+php artisan key:generate
+
+# .envファイルのDB設定
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=contact
 DB_USERNAME=root
 DB_PASSWORD=root
+
+# 以下実行
+php artisan migrate
+php artisan config:clear
+php artisan serve
+```
 
 # Author
 Masaki Ikeda
